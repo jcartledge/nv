@@ -7,29 +7,36 @@ export default () => (
   <div>
     <Head>
       <script src="https://use.fontawesome.com/fd4a2742b6.js"></script>
+      <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Cardo:400" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css" />
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css" />
-    </Head>,
+      <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css" rel="stylesheet" integrity="sha384-G3G7OsJCbOk1USkOY4RfeX1z27YaWrZ1YuaQ5tbuawed9IoreRDpWpTkZLXQfPm3" crossorigin="anonymous"/>
+      <style>{"p,div{font-family:Cardo}form,input,button{font-family:sans-serif}"}</style>
+    </Head>
     <Grid>
       <PageHeader>
         Sue Cartledge <small>Poet and author</small>
       </PageHeader>
       <Jumbotron>
-        <h1>Newtown Voices</h1>
-        <p>Everyday life in Newtown in 1978 through the voices of locals and newcomers: violence, intimidation, corruption, bombings, wogs, dagos, Abos and Aussies, racism, sexism, homophobia, poverty, drugs and disco dancing.</p>
-        <p>The personal and emotional lives of Tom and Harry, Jaroslav and Buzz echo the political and social turmoil in Australian cities through the late 70s.</p>
-        <p>Commenting on it all, from a strictly parochial viewpoint, is the fearless editor of the the local weekly paper, <em>The Newtown Voice</em>.</p>
-        <p><Button bsStyle="primary">Learn more</Button></p>
+        <Row>
+          <Col sm={8}>
+            <h1>Newtown Voices</h1>
+            <p>Everyday life in Newtown in 1978 through the voices of locals and newcomers: violence, intimidation, corruption, bombings, wogs, dagos, Abos and Aussies, racism, sexism, homophobia, poverty, drugs and disco dancing.</p>
+            <p>The personal and emotional lives of Tom and Harry, Jaroslav and Buzz echo the political and social turmoil in Australian cities through the late 70s.</p>
+            <p>Commenting on it all, from a strictly parochial viewpoint, is the fearless editor of the the local weekly paper, <em>The Newtown Voice</em>.</p>
+            <p><Button bsStyle="primary">Learn more</Button></p>
+          </Col>
+          <Col sm={4}>
+            <img src="/static/book.png" style={{width: '100%'}}/>
+          </Col>
+        </Row>
       </Jumbotron>
 
       <Row>
         <Col xs={12}>
           <blockquote>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit; Aenean commodo ligula
-              eget dolor; Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-              montes, nascetur ridiculus mus! Donec quam felis, ultricies nec, pellentesque
-              eu, pretium quis, sem!</p>
-            <cite>Mark Tredinnick, Poet</cite>
+            <p><big>&ldquo; Newtown’s mean streets have found their bard, their Chandler, their Porter, in Sue Cartledge.</big></p>
+            <p>This is a memoir and a love ballad for a place and a time: Newtown, in the skirts of a city to which the wider world was arriving fast. In this elegant and witty, tender novel in verse, you’ll meet cops and crooks, journos and painters, emigres fleeing violence in Europe and bringing finer food and wilder ways in their luggage; you’ll walk King Street as it comes out of its closet and opens its eyes, as a new Australia dawned, to the way—more diverse, more sophisticated, more violent, more knowing—the real world works. This is an accomplished work of narrative verse, an assemblage of asides and monologues, newspaper clippings and lyric meditations. Newtown Voices smells like a detective novel, dances like a villanelle, builds and breaks and flies, reads like a stage play. A trim, tough and touching remembrance, cut through with meditations on Newtown today, Newtown Voices is a delight and a work of art. &rdquo;</p>
+            <cite>Mark Tredinnick, winner of the Montreal Poetry Prize.</cite>
           </blockquote>
         </Col>
       </Row>

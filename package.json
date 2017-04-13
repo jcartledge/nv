@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "now"
   },
   "dependencies": {
     "next": "^2.0.1",
