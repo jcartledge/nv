@@ -251,7 +251,7 @@ exports.default = function (props) {
       fileName: _jsxFileName,
       lineNumber: 57
     }
-  }, 'Sign up to the mailing list to receive an invite to the launch.'), _react2.default.createElement(_reactBootstrap.Form, { action: '//saveourcitrusinfo.us2.list-manage.com/subscribe/post?u=d7a8d097ec28f14c93ef45ce5&id=b04fecef76', method: 'post', id: 'mc-embedded-subscribe-form', name: 'mc-embedded-subscribe-form', className: 'validate', target: '_blank', novalidate: true, inline: true, __source: {
+  }, 'Sign up to the mailing list to receive an invite to the launch.'), _react2.default.createElement(_reactBootstrap.Form, { action: '//saveourcitrusinfo.us2.list-manage.com/subscribe/post?u=d7a8d097ec28f14c93ef45ce5&id=b04fecef76', method: 'post', id: 'mc-embedded-subscribe-form', name: 'mc-embedded-subscribe-form', target: '_blank', inline: true, __source: {
       fileName: _jsxFileName,
       lineNumber: 58
     }
@@ -301,117 +301,121 @@ exports.default = function (props) {
       fileName: _jsxFileName,
       lineNumber: 75
     }
-  }, 'Do you have a question about distribution? Would you like to arrange a reading or media appearance with Sue? Whatever the question, please ask!'), _react2.default.createElement(_reactBootstrap.Form, { action: '//formspree.io/jcartledge@gmail.com', method: 'post', __source: {
+  }, 'Do you have a question about distribution? Would you like to arrange a reading or media appearance with Sue? Whatever the question, please ask!'), _react2.default.createElement(_reactBootstrap.Form, { action: 'https://www.enformed.io/x3bcbota', method: 'post', __source: {
       fileName: _jsxFileName,
       lineNumber: 76
     }
-  }, _react2.default.createElement('input', { type: 'hidden', name: '_subject', value: 'Website enquiry - Newtown Voices', __source: {
+  }, _react2.default.createElement('input', { type: 'hidden', name: '*subject', value: 'Website enquiry - Newtown Voices', __source: {
       fileName: _jsxFileName,
       lineNumber: 77
+    }
+  }), _react2.default.createElement('input', { type: 'hidden', name: '*honeypot', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
     }
   }), _react2.default.createElement(_reactBootstrap.Row, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 79
     }
   }, _react2.default.createElement(_reactBootstrap.Col, { md: 4, __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
-    }
-  }, _react2.default.createElement(_reactBootstrap.FormGroup, {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 80
     }
-  }, _react2.default.createElement(_reactBootstrap.ControlLabel, {
+  }, _react2.default.createElement(_reactBootstrap.FormGroup, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 81
     }
-  }, 'Name'), _react2.default.createElement(_reactBootstrap.FormControl, { type: 'text', __source: {
+  }, _react2.default.createElement(_reactBootstrap.ControlLabel, {
+    __source: {
       fileName: _jsxFileName,
       lineNumber: 82
     }
-  }))), _react2.default.createElement(_reactBootstrap.Col, { md: 4, __source: {
+  }, 'Name'), _react2.default.createElement(_reactBootstrap.FormControl, { type: 'text', name: 'Name', __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 83
     }
-  }, _react2.default.createElement(_reactBootstrap.FormGroup, {
-    __source: {
+  }))), _react2.default.createElement(_reactBootstrap.Col, { md: 4, __source: {
       fileName: _jsxFileName,
       lineNumber: 86
     }
-  }, _react2.default.createElement(_reactBootstrap.ControlLabel, {
+  }, _react2.default.createElement(_reactBootstrap.FormGroup, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 87
     }
-  }, 'Email address'), _react2.default.createElement(_reactBootstrap.InputGroup, {
+  }, _react2.default.createElement(_reactBootstrap.ControlLabel, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88
     }
-  }, _react2.default.createElement(_reactBootstrap.InputGroup.Addon, {
+  }, 'Email address'), _react2.default.createElement(_reactBootstrap.InputGroup, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 89
     }
-  }, _react2.default.createElement(_reactFontawesome2.default, { name: 'envelope', __source: {
+  }, _react2.default.createElement(_reactBootstrap.InputGroup.Addon, {
+    __source: {
       fileName: _jsxFileName,
       lineNumber: 90
     }
-  })), _react2.default.createElement(_reactBootstrap.FormControl, { type: 'email', __source: {
+  }, _react2.default.createElement(_reactFontawesome2.default, { name: 'envelope', __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 91
+    }
+  })), _react2.default.createElement(_reactBootstrap.FormControl, { type: 'email', name: 'Email', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
     }
   })))), _react2.default.createElement(_reactBootstrap.Col, { md: 4, __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 97
     }
   }, _react2.default.createElement(_reactBootstrap.FormGroup, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
-    }
-  }, _react2.default.createElement(_reactBootstrap.ControlLabel, {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 98
     }
-  }, 'Phone number'), _react2.default.createElement(_reactBootstrap.InputGroup, {
+  }, _react2.default.createElement(_reactBootstrap.ControlLabel, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 99
     }
-  }, _react2.default.createElement(_reactBootstrap.InputGroup.Addon, {
+  }, 'Phone number'), _react2.default.createElement(_reactBootstrap.InputGroup, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 100
     }
-  }, _react2.default.createElement(_reactFontawesome2.default, { name: 'phone', __source: {
+  }, _react2.default.createElement(_reactBootstrap.InputGroup.Addon, {
+    __source: {
       fileName: _jsxFileName,
       lineNumber: 101
     }
-  })), _react2.default.createElement(_reactBootstrap.FormControl, { type: 'text', __source: {
+  }, _react2.default.createElement(_reactFontawesome2.default, { name: 'phone', __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 102
+    }
+  })), _react2.default.createElement(_reactBootstrap.FormControl, { type: 'text', name: 'Phone number', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
     }
   }))))), _react2.default.createElement(_reactBootstrap.FormGroup, { controlId: 'formControlsTextarea', __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 109
     }
   }, _react2.default.createElement(_reactBootstrap.ControlLabel, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
-    }
-  }, 'Enquiry'), _react2.default.createElement(_reactBootstrap.FormControl, { componentClass: 'textarea', __source: {
-      fileName: _jsxFileName,
       lineNumber: 110
+    }
+  }, 'Enquiry'), _react2.default.createElement(_reactBootstrap.FormControl, { componentClass: 'textarea', name: 'Enquiry', __source: {
+      fileName: _jsxFileName,
+      lineNumber: 111
     }
   })), _react2.default.createElement(_reactBootstrap.Button, { type: 'submit', __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 113
     }
   }, 'Send enquiry')))));
 };

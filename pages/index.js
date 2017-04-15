@@ -55,7 +55,7 @@ export default (props) => (
           </li>
         </ul>
         <p>Sign up to the mailing list to receive an invite to the launch.</p>
-        <Form action="//saveourcitrusinfo.us2.list-manage.com/subscribe/post?u=d7a8d097ec28f14c93ef45ce5&amp;id=b04fecef76" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate inline>
+        <Form action="//saveourcitrusinfo.us2.list-manage.com/subscribe/post?u=d7a8d097ec28f14c93ef45ce5&amp;id=b04fecef76" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" inline>
           <FormGroup>
             <InputGroup>
               <InputGroup.Addon>
@@ -73,13 +73,14 @@ export default (props) => (
       <Col xs={12}>
         <h2>Make an enquiry</h2>
         <p>Do you have a question about distribution? Would you like to arrange a reading or media appearance with Sue? Whatever the question, please ask!</p>
-        <Form action="//formspree.io/jcartledge@gmail.com" method="post">
-          <input type="hidden" name="_subject" value="Website enquiry - Newtown Voices"/>
+        <Form action="https://www.enformed.io/x3bcbota" method="post">
+          <input type="hidden" name="*subject" value="Website enquiry - Newtown Voices"/>
+          <input type="hidden" name="*honeypot"/>
           <Row>
             <Col md={4}>
               <FormGroup>
                 <ControlLabel>Name</ControlLabel>
-                <FormControl type="text"/>
+                <FormControl type="text" name="Name"/>
               </FormGroup>
             </Col>
             <Col md={4}>
@@ -89,7 +90,7 @@ export default (props) => (
                   <InputGroup.Addon>
                     <FontAwesome name="envelope"/>
                   </InputGroup.Addon>
-                  <FormControl type="email"/>
+                  <FormControl type="email" name="Email"/>
                 </InputGroup>
               </FormGroup>
             </Col>
@@ -100,14 +101,14 @@ export default (props) => (
                   <InputGroup.Addon>
                     <FontAwesome name="phone"/>
                   </InputGroup.Addon>
-                  <FormControl type="text"/>
+                  <FormControl type="text" name="Phone number"/>
                 </InputGroup>
               </FormGroup>
             </Col>
           </Row>
           <FormGroup controlId="formControlsTextarea">
             <ControlLabel>Enquiry</ControlLabel>
-            <FormControl componentClass="textarea"/>
+            <FormControl componentClass="textarea" name="Enquiry"/>
           </FormGroup>
           <Button type="submit">
             Send enquiry
