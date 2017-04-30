@@ -35,13 +35,8 @@ export default (props) => (
     <Row>
       <Col sm={6}>
         <h2>Buy the book</h2>
-        <ul>
-          <li><a href="http://www.ginninderrapress.com.au/">Gininderra Press</a></li>
-          <li><a href="http://www.betterread.com.au/">Better Read than Dead</a></li>
-          <li><a href="http://www.gleebooks.com.au/home">Gleebooks</a></li>
-          <li>Amazon (Coming soon)</li>
-          <li>BookDepository (Coming soon)</li>
-        </ul>
+        <p><Button bsStyle="primary" href="/buy">Buy online or from a bookshop</Button></p>
+        <p><Button bsStyle="info" href="/excerpt">Read an excerpt</Button></p>
       </Col>
       <Col sm={6}>
         <h2>Come to the launch</h2>
@@ -54,19 +49,7 @@ export default (props) => (
             Newtown NSW 2042
           </li>
         </ul>
-        <p>Sign up to the mailing list to receive an invite to the launch.</p>
-        <Form action="//saveourcitrusinfo.us2.list-manage.com/subscribe/post?u=d7a8d097ec28f14c93ef45ce5&amp;id=b04fecef76" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" inline>
-          <FormGroup>
-            <InputGroup>
-              <InputGroup.Addon>
-                <FontAwesome name="envelope"/>
-              </InputGroup.Addon>
-              <FormControl type="email" id="mce-EMAIL" name="EMAIL" placeholder="jane.doe@example.com" />
-            </InputGroup>
-          </FormGroup>
-          {' '}
-          <Button type="submit">Register</Button>
-        </Form>
+        <p><Button bsStyle="primary" href="http://www.betterreadevents.com/product-page/newtown-voices-book-launch">Register to attend the launch</Button></p>
       </Col>
     </Row>
     <Row>
@@ -75,6 +58,7 @@ export default (props) => (
         <p>Do you have a question about distribution? Would you like to arrange a reading or media appearance with Sue? Whatever the question, please ask!</p>
         <Form action="https://www.enformed.io/x3bcbota" method="post">
           <input type="hidden" name="*subject" value="Website enquiry - Newtown Voices"/>
+          <input type="hidden" name="*default_email" value="info@suecartledge.com" />
           <input type="hidden" name="*honeypot"/>
           <Row>
             <Col md={4}>
@@ -110,7 +94,7 @@ export default (props) => (
             <ControlLabel>Enquiry</ControlLabel>
             <FormControl componentClass="textarea" name="Enquiry"/>
           </FormGroup>
-          <Button type="submit">
+          <Button type="submit" bsStyle="primary">
             Send enquiry
           </Button>
         </Form>

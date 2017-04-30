@@ -17,10 +17,12 @@ function FormField({label, children}) {
 
 export default (props) => (
   <Page {...props}>
-    <Form horizontal>
-      <FormField label="Number of copies">
-         <FormControl type="number" defaultValue="1"/>
-       </FormField>
-    </Form>
+    <ul>
+      <li><a href="http://www.ginninderrapress.com.au/">Gininderra Press</a></li>
+      <li><a href="http://www.betterread.com.au/">Better Read than Dead</a></li>
+      <li><a href="http://www.gleebooks.com.au/home">Gleebooks</a></li>
+      <li>Amazon (Coming soon)</li>
+      <li>BookDepository (Coming soon)</li>
+    </ul>
   </Page>
 );

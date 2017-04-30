@@ -1,5 +1,5 @@
 import Page from '../Page';
-import {Row, Col, Image} from 'react-bootstrap';
+import {Row, Col, Image, Button} from 'react-bootstrap';
 
 export default (props) => (
   <Page {...props}>
@@ -25,6 +25,8 @@ export default (props) => (
           an several other buildings, like somethin from<br/>
           photos of the Blitz! Fire bombed and still alight.
         </p>
+        <p>&nbsp;</p>
+        <p><Button bsStyle="primary" href="/buy">Buy online or from a bookshop</Button></p>
       </Col>
     </Row>
   </Page>
