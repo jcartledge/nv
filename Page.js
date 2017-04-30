@@ -17,6 +17,7 @@ const Page = (props) => (
       <Navbar>
         <Nav activeHref={props.url.pathname}>
           <NavItem href="/">Home</NavItem>
+          <NavItem href="/buy">Buy</NavItem>
           <NavItem href="/author">Author</NavItem>
           <NavItem href="/excerpt">Excerpt</NavItem>
         </Nav>
