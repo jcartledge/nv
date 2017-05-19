@@ -49,7 +49,8 @@ export default (props) => (
             Newtown NSW 2042
           </li>
         </ul>
-        <p><Button bsStyle="primary" href="http://www.betterreadevents.com/product-page/newtown-voices-book-launch">Register to attend the launch</Button></p>
+        <p><Button bsStyle="primary" href="https://www.facebook.com/events/291762531263370/">Come to the launch</Button></p>
+        <p>Not on Facebook? <a href="http://www.betterreadevents.com/product-page/newtown-voices-book-launch">Register with Better Read than Dead</a>.</p>
       </Col>
     </Row>
     <Row>
