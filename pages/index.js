@@ -14,7 +14,11 @@ export default (props) => (
           <p>Everyday life in Newtown in 1978 through the voices of locals and newcomers: violence, intimidation, corruption, bombings, wogs, dagos, Abos and Aussies, racism, sexism, homophobia, poverty, drugs and disco dancing.</p>
           <p>The personal and emotional lives of Tom and Harry, Jaroslav and Buzz echo the political and social turmoil in Australian cities through the late 70s.</p>
           <p>Commenting on it all, from a strictly parochial viewpoint, is the fearless editor of the the local weekly paper, <em>The Newtown Voice</em>.</p>
-          <p><Button bsStyle="primary" href="/excerpt">Read more</Button></p>
+          <p>
+            <Button bsStyle="primary" href="/excerpt">Read more</Button>
+            &nbsp;
+            <Button bsStyle="primary" href="http://suecartledgebooks.bigcartel.com/product/newtown-voices">Order now</Button>
+          </p>
         </Col>
         <Col sm={4}>
           <img src="/static/book.png" style={{width: '100%'}}/>
