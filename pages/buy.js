@@ -1,19 +1,6 @@
 import Page from '../Page';
 import {Row, Col, Image} from 'react-bootstrap';
-import {Form, FormGroup, FormControl, ControlLabel} from 'react-bootstrap';
-
-function FormField({label, children}) {
-  return (
-    <FormGroup>
-      <Col componentClass={ControlLabel} sm={2}>
-        {label}
-      </Col>
-      <Col sm={10}>
-        {children}
-      </Col>
-    </FormGroup>
-  );
-}
+import {Button} from 'react-bootstrap';
 
 export default (props) => (
   <Page {...props}>
@@ -24,6 +11,8 @@ export default (props) => (
 
     <p>The ebook of Newtown Voices is available online through <a href="https://www.amazon.com.au/d/Newtown-Voices-Sue-Cartledge-ebook/B071CDYR3T/ref=sr_1_1?ie=UTF8&qid=1495166045&sr=8-1&keywords=Newtown+Voices">Amazon</a> and <a href="https://www.bookdepository.com/Newtown-Voices-Sue-Cartledge/9781760413415">Book Depository</a>.</p>
 
+    <p><strong>Even better, you can <a href="http://suecartledgebooks.bigcartel.com/product/newtown-voices">buy direct from the author</a>!</strong></p>
+
     <ul>
       <li><a href="http://www.ginninderrapress.com.au/">Gininderra Press</a></li>
       <li><a href="http://www.betterread.com.au/">Better Read Than Dead</a></li>
@@ -33,5 +22,8 @@ export default (props) => (
       <li><a href="https://www.amazon.com.au/d/Newtown-Voices-Sue-Cartledge-ebook/B071CDYR3T/ref=sr_1_1?ie=UTF8&qid=1495166045&sr=8-1&keywords=Newtown+Voices">Amazon</a></li>
       <li><a href="https://www.bookdepository.com/Newtown-Voices-Sue-Cartledge/9781760413415">Book Depository</a></li>
     </ul>
+
+    <p><Button bsStyle="primary" href="http://suecartledgebooks.bigcartel.com/product/newtown-voices">Buy now</Button></p>
+
   </Page>
 );
