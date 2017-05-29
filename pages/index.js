@@ -27,6 +27,12 @@ export default (props) => (
     </Jumbotron>
 
     <Row>
+      <Col xs={8} xsOffset={2}>
+        <h2 style={{textAlign: 'center', paddingBottom: '1em', lineHeight: '1.3em'}}>A verse novel by Sydney author and poet Sue Cartledge, published by <a href="http://www.ginninderrapress.com.au/">Ginninderra Press</a></h2>
+      </Col>
+    </Row>
+
+    <Row>
       <Col xs={12}>
         <blockquote>
           <p><big>&ldquo;Newtown’s mean streets have found their bard, their Chandler, their Porter, in <Link href="/author" prefetch><a>Sue Cartledge</a></Link>.</big></p>
