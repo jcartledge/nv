@@ -43,25 +43,11 @@ export default (props) => (
     </Row>
 
     <Row>
-      <Col sm={6}>
+      <Col smOffset={3} sm={6}><center>
         <h2>Buy the book</h2>
         <p><Button bsStyle="primary" href="/buy">Buy online or from a bookshop</Button></p>
         <p><Button bsStyle="info" href="/excerpt">Read an excerpt</Button></p>
-      </Col>
-      <Col sm={6}>
-        <h2>Come to the launch</h2>
-        <ul className="fa-ul">
-          <li><FontAwesome name="calendar" className="fa-li"/>4pm, June 4</li>
-          <li>
-            <FontAwesome name="map-marker" className="fa-li"/>
-            <a href="http://www.betterread.com.au/">Better Read than Dead</a><br/>
-            265 King St<br/>
-            Newtown NSW 2042
-          </li>
-        </ul>
-        <p><Button bsStyle="primary" href="https://www.facebook.com/events/291762531263370/">Come to the launch</Button></p>
-        <p>Not on Facebook? <a href="http://www.betterreadevents.com/product-page/newtown-voices-book-launch">Register with Better Read than Dead</a>.</p>
-      </Col>
+    </center></Col>
     </Row>
     <Row>
       <Col xs={12}>
