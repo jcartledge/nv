@@ -1,5 +1,4 @@
 import Page from '../Page';
-import {Row, Col, Image} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
 
 export default (props) => (
@@ -18,6 +17,7 @@ export default (props) => (
       <li><a href="http://www.gleebooks.com.au/home">Gleebooks</a></li>
       <li><a href="http://berkelouw.com.au/stores/leichhardt">Berkelouw Books</a></li>
       <li><a href="http://artonking.com/">Modern Times Bookstore</a></li>
+      <li><a href="http://petrarchs.com.au">Petrarch's Bookshop</a></li>
     </ul>
 
     <p><Button bsStyle="primary" href="http://suecartledgebooks.bigcartel.com/product/newtown-voices">Buy now</Button></p>

@@ -29,6 +29,8 @@ export default (props) => (
     <Row>
       <Col xs={8} xsOffset={2}>
         <h2 style={{textAlign: 'center', paddingBottom: '1em', lineHeight: '1.3em'}}>A verse novel by Sydney author and poet Sue Cartledge, published by <a href="http://www.ginninderrapress.com.au/">Ginninderra Press</a></h2>
+        <p><big>Although the verse novel is set in the Sydney innercity suburb, Sue says her stories of the events of 1978 have wider relevance than than just Newtown. “As I was researching the incidents I was fictionalising, although I was living in Newtown, I could see how they would play out in all of Australia’s major cities, and even, to a lesser extent, in regional towns.</big></p>
+        <p><big>“The 70s were a turbulent time; the rise and then dismissal of Gough Whitlam is to me emblematic of that whole decade.”</big></p>
       </Col>
     </Row>
 
@@ -39,6 +41,14 @@ export default (props) => (
           <p>This is a memoir and a love ballad for a place and a time: Newtown, in the skirts of a city to which the wider world was arriving fast. In this elegant and witty, tender novel in verse, you’ll meet cops and crooks, journos and painters, emigres fleeing violence in Europe and bringing finer food and wilder ways in their luggage; you’ll walk King Street as it comes out of its closet and opens its eyes, as a new Australia dawned, to the way—more diverse, more sophisticated, more violent, more knowing—the real world works. This is an accomplished work of narrative verse, an assemblage of asides and monologues, newspaper clippings and lyric meditations. <em>Newtown Voices</em> smells like a detective novel, dances like a villanelle, builds and breaks and flies, reads like a stage play. A trim, tough and touching remembrance, cut through with meditations on Newtown today, <em>Newtown Voices</em> is a delight and a work of art.&rdquo;</p>
           <cite>Mark Tredinnick, winner of the Montreal Poetry Prize.</cite>
         </blockquote>
+        <blockquote>
+          <p>&ldquo;I’m reading it slowly so I can enjoy and savour each episode. It’s so rich with images, characters, feelings, I think I’m there. Am really enjoying it, and expect I’ll go back and read it again.&rdquo;</p>
+          <cite>Chris L</cite>
+        </blockquote>
+        <blockquote>
+          <p>&ldquo;I couldn’t put it down! I read it so fast, I’ll have to read it again. The history of Newtown was pretty wild back then!&rdquo;</p>
+          <cite>MC</cite>
+          </blockquote>
       </Col>
     </Row>
 
