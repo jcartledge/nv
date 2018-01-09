@@ -62,13 +62,8 @@ export default (props) => (
 
     <Row>
       <Col xs={12}>
-        <center><h2>Come to the launch</h2></center>
-        <p><big>Tasmanian readers and writers - former Launceston resident Sue Cartledge will be launching her verse novel <em>Newtown Voices</em> in Hobart and Launceston in September.</big></p>
-        <p><big><b>Launceston:</b>  Petrarch’s Bookshop will host the launch on <b>Friday Sept 8</b>. Well-known Tasmanian musician and composer, Karlin Love will introduce Sue, and both will read poems from the verse novel.<br />
-  Details: <a href="http://www.petrarchs.com.au/">Petrarch’s Bookshop</a></big></p>
-        <p><big><b>Hobart:</b> On <b>Thursday Sept 7</b>, Sue will be a guest at The Hobart Bookshop, where Ginninderra Press publisher Stephen Matthews will introduce her and <em>Newtown Voices</em>, alongside two other Ginninderra authors, Ian Williams and Jane Williams who will be launching their books.<br />
-  Details: <a href="http://www.hobartbookshop.com.au/">The Hobart Bookshop</a></big>
-        </p>
+        <center><h2>Want to know more about 1970s Newtown?</h2></center>
+        <p><big><center>Read the true stories behind the poems in Newtown Voices on my blog <a href="https://horrorheadlinesfromdaggyoldnewtown.blog/">Horror Headlines from daggy old Newtown</a>.</center></big></p>
       </Col>
     </Row>
 
